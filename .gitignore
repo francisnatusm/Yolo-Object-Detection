@@ -1,0 +1,104 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+pythonenv*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# TensorFlow/Keras model files (LARGE - DO NOT COMMIT!)
+*.h5
+*.hdf5
+*.keras
+*.pb
+*.ckpt
+*.weights
+*.weight
+*.index
+*.data-*
+
+# YOLO model files (these are large and should be downloaded, not committed)
+model_data/*.weights
+model_data/*.cfg
+model_data/*.h5
+model_data/*.pb
+!model_data/coco_classes.txt
+!model_data/yolo_anchors.txt
+
+# Output images (generated during detection)
+out/
+output/
+results/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+
+# Input images (keep sample only, not all test images)
+# images/
+# But keep a small sample image if you want
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# OS specific files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Python testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# System files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Downloads
+downloads/
+temp/
+tmp/
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
